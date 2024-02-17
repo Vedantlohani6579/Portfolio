@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/fav-icon/favicon.ico">
+    <title>Vedant Lohani S</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo/vedant-logo.jpeg" alt="logo">
+                <ul id="side-menu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#achievement">Achievement</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, I'm <span class="name">Vedant Lohani S</span></h1>
+                <h2><span id="text-auto"></span></h2>
+            </div>
+        </div>
+    </div>
+    <div class="arrow-container">
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <h1>About Me</h1>
+                        <img src="images/profile/Photo.jpeg" alt="img">
+                    </div>
+                    <div class="about-col-2">
+                        <h1>About Me</h1>
+                        <p>(NSQF)Industrial Training in Computer Operator and Programming Assistant
+                            Showcased expertise as a computer operator and trained technician, skillfully preserving and managing computer hardware systems to maximize productivity and strengthen security protocols. Skilled in managing mainframe digital computers, adeptly setting up controls for computers and peripheral devices crucial for flawless execution of computer operations.
+                        </p>
+                        <div class="tab-title">
+                            <p class="tab-link active" onclick="opentab('skill')">Skill</p>
+                            <p class="tab-link" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-content active-tab" id="skill">
+                            <ul>
+                                <li><span>Front-End</span><br>Html, Css, JavaScript, Bootstarp, jQuery,React</li>
+                                <li><span>Back-End</span><br>Python, Django</li>
+                                <li><span>Database</span><br>MySQL</li>
+                            </ul>
+                        </div>
+                        <div class="tab-content" id="education">
+                            <ul>
+                                <li><span>2019</span><br><b>Computer Operator And Programming And Assistant(COPA)</b><br>Government Industrial
+                                     Training Institute,Erode
+                                            </li>
+                                <li><span>2018</span><br><b>SSC</b><br>Siddhartha Matric High Sec. School</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="achievement">
+            <div class="container">
+                <h1>Achievement</h1>
+                <div class="service-list">
+                    <div>
+                        <i class="fa-solid fa-certificate"></i>
+                        <h2>Mobile Services </h2>
+                        <p> Successfully troubleshot and repaired hardware and software issues for mobile phones and other electronic devices. ETS Academy. Gained experience in a wide range of phone repair services, including battery replacement and display repairsMaintained an inventory of spare parts and tools to ensure efficient repairs and replacements.</p>
+                        <a href="pdf document/Mobile Service certificate.pdf" target="_blank">View Certificate</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Devtown</h2>
+                        <p> Participation certificate for successfully completing 7-days free Bootcamp on Create
+                            Facebook Login using HTML & CSS by Devtown.</p>
+                        <a href="pdf document/Vedant Dev-town certificate.pdf" target="_blank">View Certificate</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-leanpub"></i>
+                        <h2>c-cube Technologies-Erode</h2>
+                        <p>A full stack developer intern is responsible for web development on the client end and the server end. Completing a full stack development internship is a great way to learn new skills and start your journey as a professional full stack developer</p>
+                        <a href="pdf document/vedant internship certificate.pdf" target="_blank">View Certificate</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="portfolio">
+            <div class="container">
+                <h1>My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/profile/Bus-images.jpg" alt="img">
+                        <div class="layer">
+                            <h3>Bus Ticket Reservation System</h3>
+                            <P>The Bus Ticket Reservation System project is created by using Html, Css, Bootstrap,
+                                JavaScript in front-end and Python in Back-end, Django used as Python framework. Sqlite3
+                                is
+                                used to store data into database. Using this website user can book there Bus Tickets in
+                                online.
+                            </P>
+                            <div class="link">
+                                <a href="https://github.com/Vedantlohani6579/Bus-Ticket-Reservation-System"
+                                    target="_blank" title="View Code"><i class="fa-solid fa-code"></i></a>
+                                <a href="videos/Bus Resverstions ticket Booking.mp4"
+                                    target="_blank" title="View Demo"><i class="fa-solid fa-play"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/profile/Ngo image.jpeg" alt="img">
+                        <div class="layer">
+                            <h3>NGO-(Non-governmental organization)</h3>
+                            <P>
+                                Th Ngo WebSite designed By using Hmtl,css
+                                </P>
+                            <div class="link">
+                                <a href="https://github.com/Vedantlohani6579/NGO-Website-" target="_blank"
+                                    title="View Code"><i class="fa-solid fa-code"></i></a>
+                                <a href="videos/ngo website video.mp4"
+                                    target="_blank" title="View Demo"><i class="fa-solid fa-play"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/profile/calculator.jpg" alt="img">
+                        <div class="layer">
+                            <h3>calculator</h3>
+                            <P>The calculator designed By Using Html,Css,JavaScript.
+                            </P>
+                            <div class="link">
+                                <a href="https://github.com/Vedantlohani6579/Calculator" target="_blank"
+                                    title="View Code"><i class="fa-solid fa-code"></i></a>
+                                    <a href="videos/Calculator - By Code Vedant.mp4"
+                                    target="_blank" title="View Demo"><i class="fa-solid fa-play"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ADD MORE PROJECT -->
+                <div class="work-list" id="more">
+                        
+                    
+                        </div>
+                    </div>
+              
+                        </div>
+                    </div> 
+                        </div>
+                    </div>
+                    <div class="work">
+                       
+                        </div>
+                    </div>
+                    <div class="work">
+                      
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work">
+                      
+                        </div>
+                    </div>
+                   
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <button class="btn" onclick="seemore()" id="seemore">See more</button>
+                <a href="#portfolio" class="btn" onclick="seeless()" id="seeless" style="display: none;">See less</a>
+            </div>
+        </div>
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contect-left">
+                        <h1>Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i> lohanivedant1@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i> +91 9360816943</p>
+                        <div class="socialmedia-icons">
+                            <a href="https://www.instagram.com/vedantlohani_602/"
+                                target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/vedant-lohani-s-0911a4298/" target="_blank"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://github.com/Vedantlohani6579" target="_blank"><i
+                                    class="fa-brands fa-github"></i></a>
+                        </div>
+                        <a href="pdf document/Vedant-Resume.pdf" download class="btn btn2 cv">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="10" placeholder="Your Message"></textarea>
+                            <input type="submit" class="btn btn2 submit-btn" value="Submit"><br>
+                        </form>
+
+                        <div id="content_msg">
+                        </div>
+                        <p id="msg"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#header" class="up_arrow"><i class="fa-solid fa-circle-arrow-up"></i></a>
+    </div>
+    <div class="copy-rights">
+        <p>Copyright &copy; Vedant Lohani S all Rights Resrved.</p>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
